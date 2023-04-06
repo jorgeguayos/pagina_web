@@ -1,0 +1,65 @@
+body {
+	background-color:rgb(15, 15, 15);
+	margin:0;
+	font-family: 'Alkatra', cursive;
+}
+
+.cabecera{
+	background:rgb(77, 216, 77);
+	height:15vh;
+	text-align:center;
+}
+
+.cabecera h1{
+	margin:0;
+	color:rgb(20, 20, 20);
+	padding-top:25px;;
+}
+
+.contenedor{
+	display:flex;
+	height:85vh;
+}
+
+.menu{
+	background:#a5c4a5;
+	width:24%;
+    height: 155vh;
+}
+.content{
+	background-color:rgb(141, 187, 141);
+	width:75%;
+	padding:15px;
+    height: 150vh;
+
+}
+
+ul li{
+	font-size:25px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+ul li a{
+	text-decoration:none;
+	color:black;
+}
+
+ul li :hover{
+	background-color:#082915;
+	color:rgb(15, 15, 15);
+}
+
+.active a{
+	background-color:#44a77f;
+	color:rgba(255, 255, 255, 0.774) !important;
+}
+
+ul {
+	list-style : none;
+}
+
+.imagen{
+	max-width:300px;
+}
+
